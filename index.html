@@ -107,6 +107,13 @@ a.link:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .contactstage::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#0a0a0b,rgba(10,10,11,.5) 22%,rgba(10,10,11,.5) 78%,#0a0a0b)}
 .contactstage .body{margin:0;text-shadow:0 1px 8px rgba(0,0,0,.8)}
 .note-order{display:block;margin-top:8px;color:var(--ash);font-size:12.5px}
+.thanks{margin-top:16px;padding:12px 14px;border:1px dashed var(--line)}
+.thanks-t{font-size:12px;letter-spacing:.1em;color:var(--ash);line-height:1.6}
+.thanks-l{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.thanks-l a{display:block;color:var(--paper);text-decoration:none;font-size:12.5px;line-height:1.6}
+.thanks-l a:hover,.thanks-l a:focus-visible{color:var(--orange);outline:none}
+.thanks-l b{font-family:var(--serif);font-weight:900;color:var(--orange-soft);margin-right:.6em;font-size:13px}
+.thanks-l span{color:var(--ash)}
 .badge{display:inline-block;margin-right:10px;padding:2px 10px;border:1px solid var(--orange);color:var(--orange);font-size:12px;letter-spacing:.12em}
 .soon{padding:20px 16px;border:1px dashed #494d52}
 .soon .mlogo{margin:0 0 16px;width:min(250px,72%);padding:12px 14px 8px;background:#f1ecdf;border-radius:2px}
@@ -178,9 +185,14 @@ a.link:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
       <a class="link" id="link-instagram" href="https://www.instagram.com/yoshihiro_yauji/" target="_blank" rel="noopener noreferrer"><h3>Instagram</h3><p>@yoshihiro_yauji 日々の様子</p><span class="go">→</span></a>
       <a class="link" id="link-tatara" href="https://echizenkanuchi.wixsite.com/info" target="_blank" rel="noopener noreferrer"><h3>TATARA</h3><p>越前たたら研究会 鍛人</p><span class="go">→</span></a>
       <a class="link" id="link-tkv" href="https://www.takefu-knifevillage.jp" target="_blank" rel="noopener noreferrer"><h3>TAKEFU KNIFE VILLAGE</h3><p>刃物づくりの共同工房と施設の情報</p><span class="go">→</span></a>
-      <a class="link" id="link-gara" href="https://etoe2020.com" target="_blank" rel="noopener noreferrer"><h3>柄と繪</h3><p>和包丁の柄を手がけるハンドルメーカー。漆・蒔絵の工房も併設</p><span class="go">→</span></a>
-      <a class="link" id="link-fukushima" href="https://www.instagram.com/fukushima_hamono_handles/" target="_blank" rel="noopener noreferrer"><h3>福島刃物</h3><p>柄づくりをお願いしている、福島刃物さん</p><span class="go">→</span></a>
     </div></div>
+    <div class="thanks">
+      <p class="thanks-t">柄づくりで、お世話になっています</p>
+      <ul class="thanks-l">
+        <li><a id="link-gara" href="https://etoe2020.com" target="_blank" rel="noopener noreferrer"><b>柄と繪</b><span>和包丁の柄を手がけるハンドルメーカー。漆・蒔絵の工房も併設</span></a></li>
+        <li><a id="link-fukushima" href="https://www.instagram.com/fukushima_hamono_handles/" target="_blank" rel="noopener noreferrer"><b>福島刃物</b><span>柄づくりをお願いしている工房(Instagram)</span></a></li>
+      </ul>
+    </div>
   </section>
 
   <section id="access" aria-labelledby="h-access">
